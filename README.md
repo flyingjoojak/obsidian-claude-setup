@@ -262,10 +262,14 @@ tags:
 
 ## STEP 6 · Smart Connections MCP 서버 설치
 
+> **⚠️ 레포 변경 안내 (2026-07 기준)**  
+> 원작자(`brianpetro/smart-connections-mcp`)의 레포가 삭제됐습니다.  
+> 현재 가장 활성화된 포크인 `msdanyg/smart-connections-mcp`를 사용하세요.
+
 **PowerShell (관리자)**에서 실행:
 ```powershell
 # 1. MCP 서버 클론
-git clone https://github.com/brianpetro/smart-connections-mcp $env:USERPROFILE\smart-connections-mcp
+git clone https://github.com/msdanyg/smart-connections-mcp $env:USERPROFILE\smart-connections-mcp
 
 # 2. 의존성 설치 및 빌드
 cd $env:USERPROFILE\smart-connections-mcp
@@ -437,5 +441,5 @@ node C:\Users\[사용자명]\smart-connections-mcp\dist\index.js
 
 - [Obsidian](https://obsidian.md)
 - [Smart Connections Plugin](https://github.com/brianpetro/obsidian-smart-connections)
-- [Smart Connections MCP](https://github.com/brianpetro/smart-connections-mcp)
+- [Smart Connections MCP](https://github.com/msdanyg/smart-connections-mcp) _(원작자 레포 삭제로 포크 사용)_
 - [ai-dev-setup](https://github.com/flyingjoojak/ai-dev-setup) — dev-flow / full-review 워크플로우
